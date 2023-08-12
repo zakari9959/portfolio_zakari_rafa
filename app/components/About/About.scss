@@ -1,0 +1,22 @@
+#about {
+  color: white;
+  background-color: #041729;
+  border-radius: 25px;
+  padding: 5px 20px;
+  margin: 20px 0;
+  & h2{
+    margin: 20px 0
+  }
+  & p {
+    margin: 10px 0
+  }
+  & .formations {
+    padding: 5px 0 15px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #about {
+    width: 500px;
+  }
+}

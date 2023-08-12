@@ -1,0 +1,19 @@
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & .projectlist {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #portfolio {
+    margin-top: 20px;
+    & .projectlist {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+}
