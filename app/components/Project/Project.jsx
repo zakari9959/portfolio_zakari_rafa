@@ -20,10 +20,6 @@ const Project = ({project}) => {
     setSlideDirection('slide-right');
   };
 
-  useEffect(() => {
-    const carouselInterval = setInterval(goToNextSlide, carouselIntervalTime);
-    return () => clearInterval(carouselInterval);
-  }, [currentIndex, carouselIntervalTime]);
 
   const currentImageIndex = imagesIndex[currentIndex];
 
