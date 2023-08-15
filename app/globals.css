@@ -86,16 +86,18 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
   max-width: 1240px;
   margin: 0 auto;
+  background: rgb(148, 221, 233);
+  background: radial-gradient(
+    circle,
+    rgba(148, 221, 233, 1) 0%,
+    rgba(148, 187, 233, 1) 92%
+  );
+  padding: 0 20px;
+  font-family: 'Roboto', 'Montserrat', sans-serif;
 }
+
 main {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,28 @@
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+}
+.contactform #email {
+  padding: 10px;
+}
+.contactform #message {
+  min-height: 100px;
+  padding: 10px;
+}
+.contactform label {
+  margin: 5px;
+}
+.contactform button {
+  font-family: "Roboto", sans-serif;
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 50%;
+  color: #041729;
+  background: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-weight: 700;
+}/*# sourceMappingURL=ContactForm.css.map */

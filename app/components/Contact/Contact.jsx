@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import ContactForm from '../ContactForm/ContatcForm';
 
 const Contact = () => (
   <section id="contact">
@@ -7,6 +8,7 @@ const Contact = () => (
     <nav>
       <a href="tel:+33649679500">+33 6 49 67 95 00</a>
       <a href="mailto:zakari.rafa.sin@gmail.com">zakari.rafa.sin@gmail.com</a>
+      <ContactForm />
     </nav>
   </section>
 );

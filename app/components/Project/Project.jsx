@@ -1,40 +1,44 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './Project.css';
 import Image from 'next/image';
 
 const Project = ({project}) => {
-  const [imagesIndex] = useState(project.pictures);
+  const [images] = useState(project.pictures);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slideDirection, setSlideDirection] = useState('slide-left');
   const [carouselIntervalTime] = useState(5000);
-  const goToNextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % imagesIndex.length);
+  const goToNextSlide = (useCallback(() => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     setSlideDirection('slide-left');
-  };
+  },[images.length]));
 
   const goToPrevSlide = () => {
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + imagesIndex.length) % imagesIndex.length
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
     setSlideDirection('slide-right');
   };
 
-
-  const currentImageIndex = imagesIndex[currentIndex];
+  useEffect(() => {
+    const carouselInterval = setInterval(goToNextSlide, carouselIntervalTime);
+    return () => clearInterval(carouselInterval);
+  }, [carouselIntervalTime, goToNextSlide]);
+  const currentImage = images[currentIndex];
 
   return (
     <li className="project">
       <div className="carousel">
         <Image
-          src={currentImageIndex}
+          src={currentImage}
           alt="Capture d'écran du projet dans un carousel"
           className={`carousel__image ${slideDirection}`}
           width={500}
           height={100}
           quality={100}
-        />
-        {imagesIndex.length > 1 && (
+          priority={true}
+          />
+        {images.length > 1 && (
           <div>
             <Image
               src={'/docs/assets/fleche--droite.svg'} //Gauche
@@ -47,7 +51,7 @@ const Project = ({project}) => {
               height={100}
             />
             <p className="carousel__count">
-              {currentIndex + 1}/{imagesIndex.length}
+              {currentIndex + 1}/{images.length}
             </p>
             <Image
               src={'/docs/assets/fleche--droite.svg'}
