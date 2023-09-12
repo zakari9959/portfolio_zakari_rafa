@@ -78,5 +78,46 @@
       "/docs/assets/grimmoirescreen4.webp",
       "/docs/assets/grimmoirescreen5.webp"
     ]
+  },
+  {
+    "title": "Application de stockage de livres, avec lecteur intégré",
+    "description": "Ma fille étant une grande lectrice j'ai créer une application afin de pouvoir stocker des livres au format json, afin d'ensuite demander à l'IA de me générer des histoires inédites grâce à un prompt personnalisé. Mon objectif est que l'utilisateur puisse, directement depuis mon application, demandé une histoire et l'ajouter à sa bibliothèque personnelle. J'en ai profité pour approfondir mes connaissances sur NextJS 13, et apprendre Typescript, ainsi que de m'initier aux animations et j'ai aussi fait ma première contribution open-source. (En développement, août 2023)",
+    "usedSkills": [
+      "NextJS 13",
+      "Typescript",
+      "IA",
+      "Framer Motion",
+      "Open-Source"
+    ],
+    "link": "https://github.com/zakari9959/edensland",
+    "pictures": [
+      "/docs/assets/grimmoirescreen1.webp",
+      "/docs/assets/grimmoirescreen2.webp",
+      "/docs/assets/grimmoirescreen3.webp",
+      "/docs/assets/grimmoirescreen4.webp",
+      "/docs/assets/grimmoirescreen5.webp"
+    ]
+  },
+  {
+    "title": "Site vitrine pour une boucherie locale",
+    "description": "Je cherchais un projet et je savais que mon boucher utilisait déjà Facebook pour communiquer avec ses clients. J'ai donc créé un site vitrine pour lui permettre d'avoir plus de visibilité sur internet et je l'ai relié à sa page afin qu'il n'est rien de plus à faire pour mettre à jour son site web. Je compte aussi intégrer un système de réservation simple. (En développement, août 2023)",
+    "usedSkills": [
+      "NextJS 13",
+      "Typescript",
+      "SDK Facebook Pages",
+      "UX Design",
+      "Mobile First"
+    ],
+    "link": "https://github.com/zakari9959/boucherie-parisienne-douai",
+    "pictures": [
+      "/docs/assets/bouchscreen1.webp",
+      "/docs/assets/bouchscreen2.webp",
+      "/docs/assets/bouchscreen3.webp",
+      "/docs/assets/bouchscreen4.webp",
+      "/docs/assets/bouchscreen5.webp",
+      "/docs/assets/bouchscreen6.webp",
+      "/docs/assets/bouchscreen7.webp",
+      "/docs/assets/bouchscreen8.webp"
+    ]
   }
 ]

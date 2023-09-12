@@ -1,6 +1,19 @@
-.skills__list {
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills h2 {
+  padding: 10px 15px;
+  margin: 25px 0;
+  color: white;
+  background-color: #041729;
+  border-radius: 25px;
+}
+#skills .skills__list {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  margin: 30px 10px;
 }/*# sourceMappingURL=SkillsList.css.map */

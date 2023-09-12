@@ -6,6 +6,7 @@ import Skill from '../Skill/Skill';
 const SkillsList = () => {
   return (
     <section id="skills">
+      <h2>Compétences</h2>
       <ul className="skills__list">
         {skills.map((skill, index) => (
           <Skill

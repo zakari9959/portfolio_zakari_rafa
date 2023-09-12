@@ -109,18 +109,12 @@
 @media screen and (min-width: 800px) {
   .project {
     display: flex;
+    flex-direction: column;
     margin: 15px;
+    flex-basis: 45%;
   }
   .project .carousel {
-    height: 275px;
-    width: 70%;
-  }
-  .project .carousel__image {
-    border-radius: 20px 0 0 20px;
-    border-bottom: 0;
-    border-right: 5px solid black;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 290px;
   }
   .project .usedskills--flex {
     width: 100%;

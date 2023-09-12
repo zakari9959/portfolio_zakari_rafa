@@ -20,6 +20,7 @@
 
 @media screen and (min-width: 800px) {
   #contact {
-    width: 500px;
+    width: 400px;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=Contact.css.map */

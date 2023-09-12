@@ -4,7 +4,11 @@
   align-items: center;
 }
 #portfolio h2 {
+  padding: 10px 15px;
   margin: 25px 0;
+  color: white;
+  background-color: #041729;
+  border-radius: 25px;
 }
 #portfolio .projectlist {
   width: 100%;
@@ -13,6 +17,10 @@
 @media screen and (min-width: 800px) {
   #portfolio {
     margin-top: 20px;
+  }
+  #portfolio h2 {
+    font-size: 2rem;
+    padding: 20px 50px;
   }
   #portfolio .projectlist {
     display: flex;

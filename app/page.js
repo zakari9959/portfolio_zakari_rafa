@@ -9,8 +9,10 @@ export default function Home() {
     <main>
       <Portfolio />
       <SkillsList />
-      <About />
-      <Contact />
+      <div className="about--flex">
+        <About />
+        <Contact />
+      </div>
     </main>
   );
 }

@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Skill = ({ name, description, symbolUrl }) => {
   return (
     <li className="skill">
-      <h2>{name}</h2>
+      <h3>{name}</h3>
       <Image
         src={symbolUrl}
         alt="symbole de la compétences"

@@ -35,12 +35,11 @@
     "description": [
       "Hooks",
       "React Router",
-      "Cycle de vie",
+      "Create React App",
       "Tests Automatisés"
     ],
     "symbolUrl": "/docs/assets/react.png"
   },
-
   {
     "name": "NodeJS",
     "description": [
@@ -50,6 +49,28 @@
       "Règles Sécurité",
       "Green IT",
       "Création d'API"
+    ],
+    "symbolUrl": "/docs/assets/nodejs.png"
+  },
+  {
+    "name": "NextJS 13",
+    "description": [
+      "App Routeur",
+      "Server Side Rendering",
+      "AuthentificationJWT",
+      "Optimisation",
+      "Fetching API"
+    ],
+    "symbolUrl": "/docs/assets/nodejs.png"
+  },
+  {
+    "name": "Typescript",
+    "description": [
+      "Maintenabilité",
+      "Interfaces",
+      "Détection des erreurs",
+      "Optimisation",
+      "Gestion avancée des types"
     ],
     "symbolUrl": "/docs/assets/nodejs.png"
   }

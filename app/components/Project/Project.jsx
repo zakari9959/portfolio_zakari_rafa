@@ -34,7 +34,7 @@ const Project = ({project}) => {
           alt="Capture d'écran du projet dans un carousel"
           className={`carousel__image ${slideDirection}`}
           width={500}
-          height={100}
+          height={280}
           quality={100}
           priority={true}
           />
