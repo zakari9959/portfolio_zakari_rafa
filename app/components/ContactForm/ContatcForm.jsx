@@ -25,6 +25,7 @@ function ContactForm() {
       <label>Message</label>
       <textarea
         id="message"
+        type="text"
         name="message"
       />
       <ValidationError 

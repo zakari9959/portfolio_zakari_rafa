@@ -4,7 +4,7 @@ import './Navbar.css';
 const Navbar = () => (
   <nav className="navbar">
     <a href="#portfolio">
-      <strong>Portfolio</strong>
+      <strong>Projets Réalisés</strong>
     </a>
     <a href="#skills">
       <strong>Compétences</strong>

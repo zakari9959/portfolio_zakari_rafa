@@ -61,7 +61,7 @@
       "Optimisation",
       "Fetching API"
     ],
-    "symbolUrl": "/docs/assets/nodejs.png"
+    "symbolUrl": "/docs/assets/nextjs.png"
   },
   {
     "name": "Typescript",
@@ -72,6 +72,6 @@
       "Optimisation",
       "Gestion avancée des types"
     ],
-    "symbolUrl": "/docs/assets/nodejs.png"
+    "symbolUrl": "/docs/assets/typescript.png"
   }
 ]
