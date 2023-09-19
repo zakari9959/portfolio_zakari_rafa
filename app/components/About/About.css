@@ -20,4 +20,10 @@
     width: 400px;
     margin: 0;
   }
+  #about h2 {
+    margin: 20px 0 30px;
+  }
+  #about p {
+    margin: 15px 0;
+  }
 }/*# sourceMappingURL=About.css.map */

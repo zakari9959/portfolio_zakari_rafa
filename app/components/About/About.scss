@@ -19,5 +19,11 @@
   #about {
     width: 400px;
     margin: 0;
+    & h2 {
+      margin: 20px 0 30px;
+    }
+    & p {
+      margin: 15px 0;
+    }
   }
 }
