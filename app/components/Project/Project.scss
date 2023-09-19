@@ -113,6 +113,9 @@
     flex-basis: 45%;
     & .carousel {
       height: 290px;
+      &__image {
+        object-fit: cover;
+      }
     }
     & .usedskills--flex {
       width: 100%;

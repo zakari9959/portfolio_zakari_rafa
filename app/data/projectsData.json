@@ -1,48 +1,28 @@
 [
   {
-    "title": "Booki",
-    "description": "Intégration d'une maquette Figma pour un site d'agence de voyage. Une des contraintes était d'utiliser seulement HTML et CSS, ce qui m'a permis d'apprendre à utiliser correctement les balises sémantiques ainsi que Flexbox et Grid. (1er trimestre 2023)",
-    "usedSkills": ["HTML", "CSS", "Figma", "Pixel Perfect", "balisage SEO"],
-    "link": "https://github.com/zakari9959/Projet2_Openclassrooms",
-    "pictures": [
-      "/docs/assets/bookiscreen1.webp",
-      "/docs/assets/bookiscreen2.webp",
-      "/docs/assets/bookiscreen3.webp"
-    ]
-  },
-  {
-    "title": "Portfolio d'architecte",
-    "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. Avec elle, j'ai pu créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image. (1er trimestre 2023)",
-    "usedSkills": ["Javascript", "Appel API", "CRUD"],
-    "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
-    "pictures": [
-      "/docs/assets/archiscreen1.webp",
-      "/docs/assets/archiscreen2.webp",
-      "/docs/assets/archiscreen3.webp",
-      "/docs/assets/archiscreen4.webp",
-      "/docs/assets/archiscreen5.webp",
-      "/docs/assets/archiscreen6.webp",
-      "/docs/assets/archiscreen7.webp"
-    ]
-  },
-  {
-    "title": "Site de photographe",
-    "description": "Débugage et optimisation d'un site de photographe. Ce projet consistait à faire en sorte que le site déjà existant passe la barre des 90 dans les quatres catégories de Google Lighthouse(Performance, Accessibilité, Bonne pratiques, SEO), ainsi que de corriger les deux bugs existant. Etant donné que le client était photographe, les images était de très bonnes qualité et très lourde ce qui ralentissait le site et j'ai donc dû les convertir en format .webp et réduire leur taille. (2eme trimestre 2023)",
+    "title": "Site vitrine pour une boucherie locale",
+    "description": "Je cherchais un nouveau projet qui impliquerait d'autres personnes, et je savais que mon boucher utilisait déjà Facebook pour communiquer avec ses clients. J'ai donc créé un site vitrine pour lui permettre d'avoir plus de visibilité sur internet et je l'ai relié à sa page afin qu'il n'est rien de plus à faire pour mettre à jour son site web. J'ai également ajouté un formulaire de contact afin de pouvoir réserver ou les contacter et le site a été mis en ligne e. (En développement, août 2023)",
     "usedSkills": [
-      "SEO",
-      "Accessibilité",
-      "Core Web Vitals",
-      "Bonnes pratiques"
+      "NextJS 13",
+      "Typescript",
+      "SDK Facebook Pages",
+      "UX Design",
+      "Mobile First"
     ],
-    "link": "https://github.com/zakari9959/Projet5_Openclassrooms",
+    "link": "https://github.com/zakari9959/boucherie-parisienne-douai",
+    "demo": "https://boucherie-parisienne.vercel.app/",
     "pictures": [
-      "/docs/assets/photographescreen1.webp",
-      "/docs/assets/photographescreen2.webp",
-      "/docs/assets/photographescreen3.webp",
-      "/docs/assets/photographescreen4.webp",
-      "/docs/assets/photographescreen5.webp",
-      "/docs/assets/photographescreen6.webp",
-      "/docs/assets/photographescreen7.webp"
+      "/docs/assets/bouchscreen1.webp",
+      "/docs/assets/bouchscreen2.webp",
+      "/docs/assets/bouchscreen3.webp",
+      "/docs/assets/bouchscreen4.webp",
+      "/docs/assets/bouchscreen5.webp",
+      "/docs/assets/bouchscreen6.webp",
+      "/docs/assets/bouchscreen7.webp",
+      "/docs/assets/bouchscreen8.webp",
+      "/docs/assets/bouchscreen9.webp",
+      "/docs/assets/bouchscreen10.webp",
+      "/docs/assets/bouchscreen11.webp"
     ]
   },
   {
@@ -57,6 +37,7 @@
       "Hooks"
     ],
     "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
+    "demo": "https://projet6-openclassrooms.vercel.app/",
     "pictures": [
       "/docs/assets/kasascreen1.webp",
       "/docs/assets/kasascreen2.webp",
@@ -65,6 +46,77 @@
       "/docs/assets/kasascreen5.webp",
       "/docs/assets/kasascreen6.webp",
       "/docs/assets/kasascreen7.webp"
+    ]
+  },
+  {
+    "title": "Booki",
+    "description": "Intégration d'une maquette Figma pour un site d'agence de voyage. Une des contraintes était d'utiliser seulement HTML et CSS, ce qui m'a permis d'apprendre à utiliser correctement les balises sémantiques ainsi que Flexbox et Grid. J'ai dû respecter les normes W3C, les règles d'accessibilité ainsi que les bonnes pratiques SEO. J'ai également utilisé les media queries pour avoir un site resonsive. (1er trimestre 2023)",
+    "usedSkills": ["HTML", "CSS", "Figma", "Pixel Perfect", "balisage SEO"],
+    "link": "https://github.com/zakari9959/Projet2_Openclassrooms",
+    "demo": "https://zakari9959.github.io/Projet2_Openclassrooms/",
+    "pictures": [
+      "/docs/assets/bookiscreen1.webp",
+      "/docs/assets/bookiscreen2.webp",
+      "/docs/assets/bookiscreen3.webp"
+    ]
+  },
+  {
+    "title": "Portfolio d'architecte",
+    "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. Avec elle, j'ai pu créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image. (1er trimestre 2023)",
+    "usedSkills": ["JavaScript ES6+", "Appel API", "CRUD"],
+    "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
+    "pictures": [
+      "/docs/assets/archiscreen1.webp",
+      "/docs/assets/archiscreen2.webp",
+      "/docs/assets/archiscreen3.webp",
+      "/docs/assets/archiscreen4.webp",
+      "/docs/assets/archiscreen5.webp",
+      "/docs/assets/archiscreen6.webp",
+      "/docs/assets/archiscreen7.webp"
+    ]
+  },
+  {
+    "title": "Application de stockage de livres, avec lecteur intégré",
+    "description": "J'ai créer une application qui permet stocker des livres au format json, afin d'ensuite demander à l'IA de me générer des histoires inédites grâce à un prompt personnalisé. Mon objectif est que l'utilisateur puisse, directement depuis mon application, demandé une histoire et l'ajouter à sa bibliothèque personnelle. J'en ai profité pour approfondir mes connaissances sur NextJS 13, apprendre Typescript, m'initier aux animations, et j'en ai aussi profiter pour faire ma première contribution open-source lorsque l'occassion s'est présenté. (En développement, août 2023)",
+    "usedSkills": [
+      "NextJS 13",
+      "Typescript",
+      "IA",
+      "Framer Motion",
+      "Open-Source"
+    ],
+    "link": "https://github.com/zakari9959/edensland",
+    "demo": "https://edensland.vercel.app/",
+    "pictures": [
+      "/docs/assets/lecteurscreen1.webp",
+      "/docs/assets/lecteurscreen2.webp",
+      "/docs/assets/lecteurscreen3.webp",
+      "/docs/assets/lecteurscreen4.webp",
+      "/docs/assets/lecteurscreen5.webp",
+      "/docs/assets/lecteurscreen4.webp",
+      "/docs/assets/lecteurscreen5.webp",
+      "/docs/assets/lecteurscreen5.webp"
+    ]
+  },
+  {
+    "title": "Site de photographe",
+    "description": "Débugage et optimisation d'un site de photographe. Ce projet consistait à faire en sorte que le site déjà existant passe la barre des 90 dans les quatres catégories de Google Lighthouse(Performance, Accessibilité, Bonne pratiques, SEO), ainsi que de corriger les deux bugs existant. Etant donné que le client était photographe, les images était de très bonnes qualité et très lourde ce qui ralentissait le site et j'ai donc dû les convertir en format .webp et réduire leur taille. (2eme trimestre 2023)",
+    "usedSkills": [
+      "SEO",
+      "Accessibilité",
+      "Core Web Vitals",
+      "Bonnes pratiques"
+    ],
+    "link": "https://github.com/zakari9959/Projet5_Openclassrooms",
+    "demo": "https://zakari9959.github.io/Projet5_OpenClassrooms/",
+    "pictures": [
+      "/docs/assets/photographescreen1.webp",
+      "/docs/assets/photographescreen2.webp",
+      "/docs/assets/photographescreen3.webp",
+      "/docs/assets/photographescreen4.webp",
+      "/docs/assets/photographescreen5.webp",
+      "/docs/assets/photographescreen6.webp",
+      "/docs/assets/photographescreen7.webp"
     ]
   },
   {
@@ -78,50 +130,6 @@
       "/docs/assets/grimmoirescreen3.webp",
       "/docs/assets/grimmoirescreen4.webp",
       "/docs/assets/grimmoirescreen5.webp"
-    ]
-  },
-  {
-    "title": "Application de stockage de livres, avec lecteur intégré",
-    "description": "Ma fille étant une grande lectrice j'ai créer une application qui permet stocker des livres au format json, afin d'ensuite demander à l'IA de me générer des histoires inédites grâce à un prompt personnalisé. Mon objectif est que l'utilisateur puisse, directement depuis mon application, demandé une histoire et l'ajouter à sa bibliothèque personnelle. J'en ai profité pour approfondir mes connaissances sur NextJS 13, apprendre Typescript, m'initier aux animations, et j'en ai aussi profiter pour faire ma première contribution open-source lorsque l'occassion s'est présenté. (En développement, août 2023)",
-    "usedSkills": [
-      "NextJS 13",
-      "Typescript",
-      "IA",
-      "Framer Motion",
-      "Open-Source"
-    ],
-    "link": "https://github.com/zakari9959/edensland",
-    "pictures": [
-      "/docs/assets/lecteurscreen1.webp",
-      "/docs/assets/lecteurscreen2.webp",
-      "/docs/assets/lecteurscreen3.webp",
-      "/docs/assets/lecteurscreen4.webp",
-      "/docs/assets/lecteurscreen5.webp",
-      "/docs/assets/lecteurscreen4.webp",
-      "/docs/assets/lecteurscreen5.webp",
-      "/docs/assets/lecteurscreen5.webp"
-    ]
-  },
-  {
-    "title": "Site vitrine pour une boucherie locale",
-    "description": "Je cherchais un nouveau projet qui impliquerait d'autres personnes, et je savais que mon boucher utilisait déjà Facebook pour communiquer avec ses clients. J'ai donc créé un site vitrine pour lui permettre d'avoir plus de visibilité sur internet et je l'ai relié à sa page afin qu'il n'est rien de plus à faire pour mettre à jour son site web. J'ai également ajouté un formulaire de contact afin de pouvoir réserver ou les contacter et le site a été mis en ligne e. (En développement, août 2023)",
-    "usedSkills": [
-      "NextJS 13",
-      "Typescript",
-      "SDK Facebook Pages",
-      "UX Design",
-      "Mobile First"
-    ],
-    "link": "https://github.com/zakari9959/boucherie-parisienne-douai",
-    "pictures": [
-      "/docs/assets/bouchscreen1.webp",
-      "/docs/assets/bouchscreen2.webp",
-      "/docs/assets/bouchscreen3.webp",
-      "/docs/assets/bouchscreen4.webp",
-      "/docs/assets/bouchscreen5.webp",
-      "/docs/assets/bouchscreen6.webp",
-      "/docs/assets/bouchscreen7.webp",
-      "/docs/assets/bouchscreen8.webp"
     ]
   }
 ]

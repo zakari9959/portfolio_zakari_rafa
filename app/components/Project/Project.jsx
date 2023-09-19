@@ -10,7 +10,7 @@ const Project = ({project}) => {
 
 const goToNextSlide = () => {
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+      (prevIndex) => (prevIndex + 1 + images.length) % images.length
     );
   };
   const goToPrevSlide = () => {
@@ -74,9 +74,13 @@ const goToNextSlide = () => {
             </ul>
           </div>
           <div className="liengit--flex">
-            <a href={project.link} className="liengit">
+            <a href={project.link} target="_blank" className="liengit">
               Lien vers le répo Github
             </a>
+            {project.demo &&
+            <a href={project.demo} target="_blank" className="liengit">
+              Lien vers le site live
+            </a>}
           </div>
         </div>
       </div>

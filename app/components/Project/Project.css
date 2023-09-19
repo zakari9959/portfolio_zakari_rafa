@@ -116,6 +116,10 @@
   .project .carousel {
     height: 290px;
   }
+  .project .carousel__image {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .project .usedskills--flex {
     width: 100%;
     display: flex;
