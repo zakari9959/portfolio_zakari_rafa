@@ -7,6 +7,7 @@
 }
 #about h2 {
   margin: 20px 0;
+  box-shadow: none;
 }
 #about p {
   margin: 10px 0;

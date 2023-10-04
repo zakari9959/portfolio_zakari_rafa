@@ -1,9 +1,11 @@
+@charset "UTF-8";
 .project {
   margin: 5px 0 30px;
   border-radius: 25px;
   border: black solid 5px;
   box-shadow: 0px 5px 14px 8px rgba(0, 0, 0, 0.5);
   background-color: #041729;
+  transition: ease-out 0.3s;
 }
 .project .carousel {
   position: relative;
@@ -11,7 +13,6 @@
   width: 100%;
 }
 .project .carousel__image {
-  transition: transform 0.5s ease;
   width: 100%;
   height: 100%;
   border-radius: 20px 20px 0 0;
@@ -94,16 +95,25 @@
 }
 .project__text .liengit {
   color: white;
-  background-color: black;
   padding: 15px;
-  margin: 10px 0;
-  border-radius: 25px;
+  margin: 10px 10px 10px 0;
+  background-color: black;
   text-align: center;
 }
 .project__text .liengit--flex {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-out;
+  box-shadow: 0px 0px 16px 5px rgba(19, 38, 107, 0.7);
+}
+
+.project.modal-open {
+  pointer-events: none; /* Désactive le hover */
 }
 
 @media screen and (min-width: 800px) {
@@ -121,7 +131,7 @@
        object-fit: cover;
   }
   .project .usedskills--flex {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,5 +147,9 @@
     width: 100%;
     padding: 0 10px;
     align-items: center;
+    justify-content: space-around;
+  }
+  .project__text .liengit--flex {
+    width: 25%;
   }
 }/*# sourceMappingURL=Project.css.map */

@@ -1,12 +1,15 @@
 'use client';
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState } from 'react';
 import './Project.css';
 import Image from 'next/image';
+import ProjectModal from '../ProjectModal/ProjectModal';
 
 const Project = ({project}) => {
 
   const [images] = useState(project.pictures);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedProject, setSelectedProject] = useState(null);
+
 
 const goToNextSlide = () => {
     setCurrentIndex(
@@ -18,11 +21,20 @@ const goToNextSlide = () => {
       (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
   };
+  const openModal = (project) => {
+    setSelectedProject(project);
+  };
 
+  const closeModal = () => {
+    setSelectedProject(null);
+  };
   const currentImage = images[currentIndex];
-
+ console.log(selectedProject)
   return (
-    <li className="project">
+    <li className={`project ${selectedProject ? 'modal-open' : ''}`} /* onClick={() => openModal(project)} */>
+       {/* {selectedProject !== null && (
+      <ProjectModal project={selectedProject} onClose={closeModal} />
+    )} */}
       <div className="carousel">
         <Image
           src={currentImage}
@@ -84,6 +96,7 @@ const goToNextSlide = () => {
           </div>
         </div>
       </div>
+     
     </li>
   );
 };

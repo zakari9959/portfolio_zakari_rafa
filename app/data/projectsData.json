@@ -1,7 +1,7 @@
 [
   {
     "title": "Site vitrine pour une boucherie locale",
-    "description": "Je cherchais un nouveau projet qui impliquerait d'autres personnes, et je savais que mon boucher utilisait déjà Facebook pour communiquer avec ses clients. J'ai donc créé un site vitrine pour lui permettre d'avoir plus de visibilité sur internet et je l'ai relié à sa page afin qu'il n'est rien de plus à faire pour mettre à jour son site web. J'ai également ajouté un formulaire de contact afin de pouvoir réserver ou les contacter et le site a été mis en ligne e. (En développement, août 2023)",
+    "description": "Je cherchais un nouveau projet qui impliquerait d'autres personnes, et je savais que mon boucher utilisait déjà Facebook pour communiquer avec ses clients. J'ai donc créé un site vitrine pour lui permettre d'avoir plus de visibilité sur internet et je l'ai relié à sa page afin qu'il n'est rien de plus à faire pour mettre à jour son site web. J'ai également ajouté un formulaire de contact afin de pouvoir réserver ou les contacter et le site a été mis en ligne. (En développement, août 2023)",
     "usedSkills": [
       "NextJS 13",
       "Typescript",
@@ -10,7 +10,7 @@
       "Mobile First"
     ],
     "link": "https://github.com/zakari9959/boucherie-parisienne-douai",
-    "demo": "https://boucherie-parisienne.vercel.app/",
+    "demo": "https://boucherieparisienne-douai.fr",
     "pictures": [
       "/docs/assets/bouchscreen1.webp",
       "/docs/assets/bouchscreen2.webp",
@@ -93,7 +93,6 @@
       "/docs/assets/lecteurscreen3.webp",
       "/docs/assets/lecteurscreen4.webp",
       "/docs/assets/lecteurscreen5.webp",
-      "/docs/assets/lecteurscreen4.webp",
       "/docs/assets/lecteurscreen6.webp",
       "/docs/assets/lecteurscreen7.webp",
       "/docs/assets/lecteurscreen8.webp"
