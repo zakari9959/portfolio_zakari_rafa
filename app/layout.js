@@ -16,6 +16,14 @@ export const metadata = {
     title: 'Portfolio Zakari Rafa',
     description:
       "Voici mon portfolio de Développeur Web, venez voir les projets que j'ai réalisés !",
+    images: [
+      {
+        url: '/og-image.png',
+        width: 800,
+        height: 600,
+        alt: 'Portfolio Zakari Rafa',
+      },
+    ],
   },
 };
 

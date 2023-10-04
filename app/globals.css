@@ -31,12 +31,6 @@ main {
   display: flex;
   flex-direction: column;
 }
-.about--flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
 a {
   color: inherit;
   background-color: black;
@@ -77,9 +71,5 @@ ul {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
-}
-@media screen and (min-width: 800px) {
-  body {
   }
 }

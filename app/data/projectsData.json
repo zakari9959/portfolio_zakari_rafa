@@ -26,6 +26,29 @@
     ]
   },
   {
+    "title": "Application de stockage de livres, avec lecteur intégré",
+    "description": "J'ai créer une application qui permet stocker des livres au format json, afin d'ensuite demander à l'IA de me générer des histoires inédites grâce à un prompt personnalisé. Mon objectif est que l'utilisateur puisse, directement depuis mon application, demandé une histoire et l'ajouter à sa bibliothèque personnelle. J'en ai profité pour approfondir mes connaissances sur NextJS 13, apprendre Typescript, m'initier aux animations, et j'en ai aussi profiter pour faire ma première contribution open-source lorsque l'occassion s'est présenté. (En développement, août 2023)",
+    "usedSkills": [
+      "NextJS 13",
+      "Typescript",
+      "IA",
+      "Framer Motion",
+      "Open-Source"
+    ],
+    "link": "https://github.com/zakari9959/edensland",
+    "demo": "https://edensland.vercel.app/",
+    "pictures": [
+      "/docs/assets/lecteurscreen1.webp",
+      "/docs/assets/lecteurscreen2.webp",
+      "/docs/assets/lecteurscreen3.webp",
+      "/docs/assets/lecteurscreen4.webp",
+      "/docs/assets/lecteurscreen5.webp",
+      "/docs/assets/lecteurscreen6.webp",
+      "/docs/assets/lecteurscreen7.webp",
+      "/docs/assets/lecteurscreen8.webp"
+    ]
+  },
+  {
     "title": "Site de location immobilière",
     "description": "Création d'un site de location immobilière en utilisant ReactJS. Il fallait partir d'une maquette et utiliser des composants réutilisables. Ce projet m'a permis d'apprendre le JSX ainsi que différents 'package' notamment React-Router pour gérer les routes , Eslint et Prettier pour du code propre, l'utilisation des Hooks useState et useEffect, et la méthode BEM et Sass pour optimiser le CSS. (2eme trimestre 2023)",
     "usedSkills": [
@@ -73,29 +96,6 @@
       "/docs/assets/archiscreen5.webp",
       "/docs/assets/archiscreen6.webp",
       "/docs/assets/archiscreen7.webp"
-    ]
-  },
-  {
-    "title": "Application de stockage de livres, avec lecteur intégré",
-    "description": "J'ai créer une application qui permet stocker des livres au format json, afin d'ensuite demander à l'IA de me générer des histoires inédites grâce à un prompt personnalisé. Mon objectif est que l'utilisateur puisse, directement depuis mon application, demandé une histoire et l'ajouter à sa bibliothèque personnelle. J'en ai profité pour approfondir mes connaissances sur NextJS 13, apprendre Typescript, m'initier aux animations, et j'en ai aussi profiter pour faire ma première contribution open-source lorsque l'occassion s'est présenté. (En développement, août 2023)",
-    "usedSkills": [
-      "NextJS 13",
-      "Typescript",
-      "IA",
-      "Framer Motion",
-      "Open-Source"
-    ],
-    "link": "https://github.com/zakari9959/edensland",
-    "demo": "https://edensland.vercel.app/",
-    "pictures": [
-      "/docs/assets/lecteurscreen1.webp",
-      "/docs/assets/lecteurscreen2.webp",
-      "/docs/assets/lecteurscreen3.webp",
-      "/docs/assets/lecteurscreen4.webp",
-      "/docs/assets/lecteurscreen5.webp",
-      "/docs/assets/lecteurscreen6.webp",
-      "/docs/assets/lecteurscreen7.webp",
-      "/docs/assets/lecteurscreen8.webp"
     ]
   },
   {
