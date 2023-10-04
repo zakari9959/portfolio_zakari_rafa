@@ -28,6 +28,7 @@ const About = () => {
           ))}
         </ul>
       </div>
+      <a href='https://zakarirafa.notion.site/Zakari-RAFA-037a24f3e01046f5bb91c940179f2e11?pvs=4' target="_blank" className='lien__notion'>Ma page Notion avec une desctiption complète et détaillée</a>
     </section>
   );
   
