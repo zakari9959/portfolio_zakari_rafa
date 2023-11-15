@@ -12,8 +12,8 @@
   {
     "name": "CSS",
     "description": [
-      "CSS Sass",
-      "Flexbox et CSS Grid",
+      "SASS Tailwynd",
+      "Flexbox et Grid",
       "Nomenclature BEM",
       "Animations"
     ],
@@ -36,7 +36,7 @@
       "Hooks",
       "React Router",
       "Create React App",
-      "Tests Automatisés"
+      "Jest/React Testing Library"
     ],
     "symbolUrl": "/docs/assets/react.png"
   },
@@ -46,7 +46,7 @@
       "CRUD",
       "Gestion MongoDB",
       "Middleware personnalisé",
-      "Règles Sécurité",
+      "AuthentificationJWT",
       "Green IT",
       "Création d'API"
     ],
@@ -57,7 +57,6 @@
     "description": [
       "App Routeur",
       "Server Side Rendering",
-      "AuthentificationJWT",
       "Optimisation",
       "Fetching API"
     ],
@@ -67,10 +66,9 @@
     "name": "Typescript",
     "description": [
       "Maintenabilité",
-      "Interfaces",
+      "Typage",
       "Détection des erreurs",
-      "Optimisation",
-      "Gestion avancée des types"
+      "Optimisation"
     ],
     "symbolUrl": "/docs/assets/typescript.png"
   }

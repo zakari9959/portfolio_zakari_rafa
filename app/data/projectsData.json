@@ -1,7 +1,7 @@
 [
   {
     "title": "Site vitrine pour une boucherie locale",
-    "description": "Je cherchais un nouveau projet qui impliquerait d'autres personnes, et je savais que mon boucher utilisait déjà Facebook pour communiquer avec ses clients. J'ai donc créé un site vitrine pour lui permettre d'avoir plus de visibilité sur internet et je l'ai relié à sa page afin qu'il n'est rien de plus à faire pour mettre à jour son site web. J'ai également ajouté un formulaire de contact afin de pouvoir réserver ou les contacter et le site a été mis en ligne. (En développement, août 2023)",
+    "description": "Guidé par ma volonté d'apporter une valeur ajoutée ainsi que mon besoin d'expérience, j'ai identifié une opportunité de moderniser la présence en ligne de mon boucher. Constatant qu'il utilisait déjà Facebook pour interagir avec sa clientèle, j'ai créé un site vitrine avec un SDK Facebook Page qui lui permet de mettre à jour facilement les actualités sans effort supplémentaire. J'ai également ajouté un formulaire de contact qui permet de réserver par mail afin de ne plus être obligé d'appeler pour réserver. Le projet lui a plu et j'ai donc mis le site en ligne. (En développement, août 2023)",
     "usedSkills": [
       "NextJS 13",
       "Typescript",
@@ -26,14 +26,15 @@
     ]
   },
   {
-    "title": "Application de stockage de livres, avec lecteur intégré",
-    "description": "J'ai créer une application qui permet stocker des livres au format json, afin d'ensuite demander à l'IA de me générer des histoires inédites grâce à un prompt personnalisé. Mon objectif est que l'utilisateur puisse, directement depuis mon application, demandé une histoire et l'ajouter à sa bibliothèque personnelle. J'en ai profité pour approfondir mes connaissances sur NextJS 13, apprendre Typescript, m'initier aux animations, et j'en ai aussi profiter pour faire ma première contribution open-source lorsque l'occassion s'est présenté. (En développement, août 2023)",
+    "title": "Application de génération de livres, avec bibliothèque personnelle",
+    "description": "J'ai conçu une application novatrice visant à stimuler la créativité des enfants en leur offrant la possibilité de créer leurs propres histoires à partir de requêtes simples. À l'aide de l'API GPT, le projet repose sur une architecture complète utilisant ReactJS, NextJS, TypeScript et Framer Motion pour le front-end. Le back-end est construit avec NodeJS et MongoDB, permettant la connexion des utilisateurs et l'enregistrement des livres générés dans une bibliothèque personnelle. (En développement, août 2023)",
     "usedSkills": [
       "NextJS 13",
       "Typescript",
-      "IA",
       "Framer Motion",
-      "Open-Source"
+      "NodeJS",
+      "MongoDB",
+      "API GPT (OpenAI)"
     ],
     "link": "https://github.com/zakari9959/edensland",
     "demo": "https://edensland.vercel.app/",
@@ -50,7 +51,7 @@
   },
   {
     "title": "Site de location immobilière",
-    "description": "Création d'un site de location immobilière en utilisant ReactJS. Il fallait partir d'une maquette et utiliser des composants réutilisables. Ce projet m'a permis d'apprendre le JSX ainsi que différents 'package' notamment React-Router pour gérer les routes , Eslint et Prettier pour du code propre, l'utilisation des Hooks useState et useEffect, et la méthode BEM et Sass pour optimiser le CSS. (2eme trimestre 2023)",
+    "description": "Pendant ma formation, j'ai conçu un site de location immobilière fictif en utilisant ReactJS, transformant avec succès une maquette en une application fonctionnelle. Ce projet a été l'occasion d'appliquer des bonnes pratiques de développement, en intégrant des composants réutilisables et en adoptant React-Router pour une navigation optimale. J'ai perfectionné mes compétences en JSX, utilisé Eslint et Prettier pour garantir un code propre, exploité les Hooks useState et useEffect, et adopté la méthodologie BEM associée à Sass pour optimiser le CSS. Cette expérience atteste de ma capacité à développer des interfaces utilisateur réactives et à mettre en œuvre des solutions modernes en utilisant ReactJS.    (2eme trimestre 2023)",
     "usedSkills": [
       "ReactJS",
       "Create React App",
@@ -73,7 +74,7 @@
   },
   {
     "title": "Booki",
-    "description": "Intégration d'une maquette Figma pour un site d'agence de voyage. Une des contraintes était d'utiliser seulement HTML et CSS, ce qui m'a permis d'apprendre à utiliser correctement les balises sémantiques ainsi que Flexbox et Grid. J'ai dû respecter les normes W3C, les règles d'accessibilité ainsi que les bonnes pratiques SEO. J'ai également utilisé les media queries pour avoir un site resonsive. (1er trimestre 2023)",
+    "description": "Intégration d'une maquette Figma pour un site d'agence de voyage. Une des contraintes était d'utiliser seulement HTML et CSS, ce qui m'a permis d'apprendre à utiliser correctement les balises sémantiques ainsi que Flexbox et Grid. J'ai dû respecter les normes W3C, les règles d'accessibilité ainsi que les bonnes pratiques SEO. J'ai également utilisé les media queries pour avoir un site resonsive. Bien que le projet soit seulement en HTML et CSS, j'en suis encore fier car il est plutôt joli malgré que c'était mon premier projet web. (1er trimestre 2023)",
     "usedSkills": ["HTML", "CSS", "Figma", "Pixel Perfect", "balisage SEO"],
     "link": "https://github.com/zakari9959/Projet2_Openclassrooms",
     "demo": "https://zakari9959.github.io/Projet2_Openclassrooms/",
@@ -85,8 +86,8 @@
   },
   {
     "title": "Portfolio d'architecte",
-    "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. Avec elle, j'ai pu créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image. (1er trimestre 2023)",
-    "usedSkills": ["JavaScript ES6+", "Appel API", "CRUD"],
+    "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. J'ai dû créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image. (1er trimestre 2023)",
+    "usedSkills": ["JavaScript ES6+", "Appel API REST", "CRUD"],
     "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
     "pictures": [
       "/docs/assets/archiscreen1.webp",
@@ -100,7 +101,7 @@
   },
   {
     "title": "Site de photographe",
-    "description": "Débugage et optimisation d'un site de photographe. Ce projet consistait à faire en sorte que le site déjà existant passe la barre des 90 dans les quatres catégories de Google Lighthouse(Performance, Accessibilité, Bonne pratiques, SEO), ainsi que de corriger les deux bugs existant. Etant donné que le client était photographe, les images était de très bonnes qualité et très lourde ce qui ralentissait le site et j'ai donc dû les convertir en format .webp et réduire leur taille. (2eme trimestre 2023)",
+    "description": "Débugage et optimisation d'un site de photographe. Ma tâche consistait à faire en sorte que le site déjà existant passe la barre des 90 dans les quatres catégories de Google Lighthouse (Performance, Accessibilité, Bonne pratiques, SEO) ainsi que de corriger les deux bugs existant. Etant donné que le client était photographe, les images était de très bonnes qualité et très lourde ce qui ralentissait le site et j'ai donc dû les convertir en format .webp et réduire leur taille. (2eme trimestre 2023)",
     "usedSkills": [
       "SEO",
       "Accessibilité",
